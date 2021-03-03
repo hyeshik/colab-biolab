@@ -134,5 +134,3 @@ DEFAULT_CONDA_ENVIRONMENT=lab
 if [ -v PS1 ]; then
   conda activate ${DEFAULT_CONDA_ENVIRONMENT}
 fi
-
-export PATH="$HOME/.bin.priority:$PATH"
