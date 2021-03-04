@@ -1,6 +1,6 @@
 # Colab-Biolab
 
-A notebook for Google Colab that turns Colab into a sandbox for learning Bioinformatics tools.
+A notebook for Google Colab that turns Colab into a sandbox for learning Bioinformatics tools with a Linux terminal.
 
 <img src="https://raw.githubusercontent.com/hyeshik/colab-biolab/main/screenshot-1.jpg" width="640px">
 
