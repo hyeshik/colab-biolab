@@ -6,6 +6,6 @@ if [ "$BASH" ]; then
   fi
 fi
 
-PS1="\w# "
+PS1="\[$(tput setaf 6; tput bold)\]\\w\[$(tput setaf 1; tput bold)\]#\[$(tput sgr0)\] "
 
 mesg n || true
