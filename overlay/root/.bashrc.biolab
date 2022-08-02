@@ -88,9 +88,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-# Activate the default conda environment
-DEFAULT_CONDA_ENVIRONMENT=lab
-if [ -v PS1 ]; then
-  conda activate ${DEFAULT_CONDA_ENVIRONMENT}
-fi

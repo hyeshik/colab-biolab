@@ -14,12 +14,6 @@ fi
 bash $CONDAINSTALLER -b -f -p $CONDA_PREFIX
 
 
-# Set-up a new conda environment
-$CONDA_PREFIX/bin/conda create -n lab -y \
-  pip scipy numpy biopython matplotlib pandas pysam cython \
-  samtools bwa bedtools star
-
-
 # Activate our .bashrc
 if ! grep DEFAULT_CONDA $HOME/.bashrc >/dev/null 2>&1; then
   cat $HOME/.bashrc.biolab >> $HOME/.bashrc
